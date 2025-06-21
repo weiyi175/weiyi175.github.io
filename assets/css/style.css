@@ -1,0 +1,48 @@
+/* assets/css/style.css */
+
+body {
+  background-color: #121212;     /* 深灰近黑背景 */
+  color: #e0e0e0;                /* 柔和白色文字 */
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 2rem;
+  line-height: 1.6;
+}
+
+a {
+  color: #90caf9;                /* 淺藍色連結 */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1, h2, h3 {
+  color: #ffffff;
+}
+
+nav {
+  background-color: #1e1e1e;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+nav a {
+  margin-right: 1rem;
+  color: #bb86fc;                /* 紫色導航連結 */
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
